@@ -16,8 +16,6 @@ class Solution {
             }
             list.add(temp);
         }
-        int[][] ret = new int[list.size()][2];
-        list.toArray(ret);
-        return ret;
+        return list.toArray(new int[list.size()][2]);
     }
 }
